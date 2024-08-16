@@ -6,10 +6,6 @@ http://localhost:8080/h2-console/ - dane do logowania takie jak application.yaml
 Do budowania projektu i zarządzania zależnościami użyłem maven'a.
 Za pomocą jego pluginu generuję także kod użyty do mapowania klas.
 
-### **Uruchomienie:**
-1. Należy uruchomić komendę: mvn clean compile - w celu zbudowania implementacji dla mappera mapStructowego
-2. Następnie uruchomić z intellij 'EmpikApplication' lub uruchomić standardowo z konsoli applikacje
-
 ### **Opis rozwiązania:**
 
 Aplikacja ma jeden wystawiony endpoint, który otrzymuje nazwę użytkownika, a następnie przekazuje go do 'UserService'.
