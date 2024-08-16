@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization=true:
+  sql:
+    init:
+      mode: always
+  h2:
+    console.enabled: true
+  application:
+    name: empik
+  datasource:
+    url: jdbc:h2:file:C:\Development\empik\h2data;DB_CLOSE_DELAY=-1
+    username: sa
+    password: password
